@@ -40,8 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.mastra/
-
 # lock files
 package-lock.json
 yarn.lock
