@@ -3,8 +3,5 @@
 # Navigate to the agent directory
 cd "$(dirname "$0")/../agent" || exit 1
 
-# Activate the virtual environment
-source .venv/bin/activate
-
-# Run the agent
-.venv/bin/python agent.py
+# Run the agent using uv
+uv run python main.py

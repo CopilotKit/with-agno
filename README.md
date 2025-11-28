@@ -4,8 +4,8 @@ This is a starter template for building AI agents using [Agno](https://agno.com)
 
 ## Prerequisites
 
-- Node.js 18+ 
-- Python 3.8+
+- Node.js 20+ 
+- Python 3.12+
 - OpenAI API Key (for the Agno agent)
 - Any of the following package managers:
   - pnpm (recommended)
@@ -73,14 +73,14 @@ The following scripts can also be run using your preferred package manager:
 - `lint` - Runs ESLint for code linting
 - `install:agent` - Installs Python dependencies for the agent
 
-## Documentation
+## 📚 Documentation
 
 The main UI component is in `src/app/page.tsx`. You can:
 - Modify the theme colors and styling
 - Add new frontend actions
 - Customize the CopilotKit sidebar appearance
 
-## 📚 Documentation
+Otherwise, check out the documentation relevant to your task:
 
 - [Agno Documentation](https://docs.agno.com/introduction) - Learn more about Agno and its features
 - [CopilotKit Documentation](https://docs.copilotkit.ai) - Explore CopilotKit's capabilities
@@ -107,5 +107,5 @@ If you see "I'm having trouble connecting to my tools", make sure:
 If you encounter Python import errors:
 ```bash
 cd agent
-pip install -r requirements.txt
+uv sync
 ```
